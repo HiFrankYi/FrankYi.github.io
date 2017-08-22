@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Frank Yi&#39;s blog</title>
-  
+  <subtitle>关注一下学习与生活</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -9,7 +9,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>易法国(Frank Yi)</name>
+    <name>Frank Yi</name>
     
   </author>
   
