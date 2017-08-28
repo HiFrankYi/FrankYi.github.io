@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-28T14:29:26.000Z</updated>
+  <updated>2017-08-28T14:31:06.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="http://yoursite.com/2017/08/28/github-pages%E7%9A%84%E4%BD%BF%E7%94%A8%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2017/08/28/github-pages的使用常见问题/</id>
     <published>2017-08-28T14:11:10.000Z</published>
-    <updated>2017-08-28T14:29:26.000Z</updated>
+    <updated>2017-08-28T14:31:06.000Z</updated>
     
     <content type="html"><![CDATA[<p>很高兴读者也加入github pages的家庭,笔者把使用过程中遇到的一些记录一下,并提供一些简单的解决办法,这些解决办法也是我遇到问题在网上或者通过时间熬出来的,希望对你有用.</p>
-<h2 id="1-新申请的域名不能得到解析-并且github-setting报错"><a href="#1-新申请的域名不能得到解析-并且github-setting报错" class="headerlink" title="1.新申请的域名不能得到解析,并且github setting报错"></a>1.新申请的域名不能得到解析,并且github setting报错</h2><p>我买到域名之后第一时间按照网上博客的方法进行解析,但是发现无论如何操作,github pages的setting总会报错,然后我ping域名与github.io发现无法得到相同的IP地址.后来打电话给阿里云客服,客服告知新申请的域名必须实名认证并且通过上传身份证进行人工审核,审核时间一般为3到5个工作日.过了几天后登陆我的域名就能访问我的博客了,发现github setting也不提示错误了.<br>‘’’ bash<br>因此遇到github pages seeting提示DNS解析错误,需要等待阿里云之类的服务提供商的实名审核.<br>‘’’</p>
+<h2 id="1-新申请的域名不能得到解析-并且github-setting报错"><a href="#1-新申请的域名不能得到解析-并且github-setting报错" class="headerlink" title="1.新申请的域名不能得到解析,并且github setting报错"></a>1.新申请的域名不能得到解析,并且github setting报错</h2><p>我买到域名之后第一时间按照网上博客的方法进行解析,但是发现无论如何操作,github pages的setting总会报错,然后我ping域名与github.io发现无法得到相同的IP地址.后来打电话给阿里云客服,客服告知新申请的域名必须实名认证并且通过上传身份证进行人工审核,审核时间一般为3到5个工作日.过了几天后登陆我的域名就能访问我的博客了,发现github setting也不提示错误了.</p>
+<p>因此遇到github pages seeting提示DNS解析错误,需要等待阿里云之类的服务提供商的实名审核.</p>
 <h2 id="2-hexo提交新的博客后-DNS解析失效-无法访问到你的域名"><a href="#2-hexo提交新的博客后-DNS解析失效-无法访问到你的域名" class="headerlink" title="2.hexo提交新的博客后,DNS解析失效,无法访问到你的域名"></a>2.hexo提交新的博客后,DNS解析失效,无法访问到你的域名</h2><p>解决步骤如下:<br>1.在hexo目录的source目录下新建CNAME文件,记得文件名务必大写;<br>2.在CNAME文件中填入你的域名;<br>3.hexo g;<br>4.hexo d上传代码到github.</p>
 ]]></content>
     
